@@ -18,3 +18,16 @@ Ensuite nous avons implementé la partie Kotlin et c'est là oû on a associé d
 
 Le calcul est affiché dans un textView et peut être également effacer en utilisant le bouton Clear.
 
+
+## Module: News
+
+Ce module affiche les news via l'API newsapi.org fournit en cours.
+
+## Module: Planetes
+
+Ce module vous permet de découvrir les différentes planètes du système solaire classée par distance par rapport au Soleil. Vous pourrez admirer la beauté de ces planètes grâce au recyclerView adapté à chaque fois que vous sélectionnerez une planète dans la liste de choix (Spinner) ainsi que quelques infos. 
+
+
+
+
+
