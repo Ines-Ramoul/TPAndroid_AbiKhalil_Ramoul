@@ -8,10 +8,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/calculator" />
             <option value="$PROJECT_DIR$/exemples" />
+            <option value="$PROJECT_DIR$/mycalculatrice" />
             <option value="$PROJECT_DIR$/planetes" />
-            <option value="$PROJECT_DIR$/planetes1" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
