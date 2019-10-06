@@ -1,2 +1,2 @@
-include ':planetes1', ':exemples', ':calculator', ':planetes'
+include ':planetes1', ':exemples', ':calculator', ':planetes', ':mycalculatrice'
 rootProject.name='TpsAndroidRamoul'
