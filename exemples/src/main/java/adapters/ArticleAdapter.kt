@@ -17,10 +17,10 @@ class ArticleAdapter(private val dataset: List<Article>) :
         fun bind(item: Article) {
             val txtTitle = root.findViewById<TextView>(R.id.article_title)
             val txtDesc = root.findViewById<TextView>(R.id.article_description)
-            val img = root.findViewById<ImageView>(R.id.image_item)
+            //val img = root.findViewById<ImageView>(R.id.image_item)
             txtTitle.text = item.title
             txtDesc.text = item.description
-            img.setImageResource(item.image)
+            //img.setImageResource(item.image)
 
         }
     }
