@@ -2,7 +2,7 @@
 
 TPAndroid_AbiKhalil_Ramoul est un projet créé par RAMOUL Inès et ABI KHALIL Charbel et qui contient 3 modules : Calculatrice, Planètes et News. 
 
-Pour une bonnse gestion de projet, on a créé une branch pour chaque module sur git avant de les merger avec la branch master.
+Pour une bonnse gestion de projet, on a créé une branch pour chaque module (les deux modules planètes et news sont sous la branch planètes) sur git avant de les merger avec la branch master.
 
 ## Installation
 
