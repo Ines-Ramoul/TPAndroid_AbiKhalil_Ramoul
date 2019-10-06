@@ -3,6 +3,8 @@ package adapters
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageSwitcher
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import fr.unice.miage.mbds.exemples.R
@@ -15,8 +17,10 @@ class ArticleAdapter(private val dataset: List<Article>) :
         fun bind(item: Article) {
             val txtTitle = root.findViewById<TextView>(R.id.article_title)
             val txtDesc = root.findViewById<TextView>(R.id.article_description)
+            val img = root.findViewById<ImageView>(R.id.image_item)
             txtTitle.text = item.title
             txtDesc.text = item.description
+            img.setImageResource(item.image)
 
         }
     }

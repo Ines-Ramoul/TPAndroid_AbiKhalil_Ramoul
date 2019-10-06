@@ -9,8 +9,11 @@ import fr.unice.miage.mbds.exemples.R
 
 data class Article(
     val title: String,
-    val description: String
-)
+    val description: String,
+    val image: Int
+) {
+
+}
 
 
 
