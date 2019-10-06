@@ -38,7 +38,7 @@ private fun bindFragment() {
 //créer un transaction sur le fragment manager
     supportFragmentManager.beginTransaction().apply {
         //replacer le précédent fragment, s'il existe
-        replace(R.id.fragment_container, fragment)
+        replace(R.id.frag, fragment)
         //ajouter la transaction dans la stack
         addToBackStack(null)
     }.commit()

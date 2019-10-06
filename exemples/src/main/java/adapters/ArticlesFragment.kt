@@ -13,13 +13,10 @@ import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import fr.unice.miage.mbds.exemples.R
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.list_item.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import networks.ArticleResponse
 import networks.repositories.ArticleRepository
 
 
@@ -75,24 +72,24 @@ class ArticlesFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         root = view
         bindRecyclerView(view)
-        bindSpinner(view)
+        //bindSpinner(view)
     }
 
     private fun bindRecyclerView(view: View){
-        /*val listArticles = listOf(
+        val listArticles = listOf(
             Article("Titre 1", "Description 1"),
             Article("Titre 1", "Description 1"),
             Article("Titre 1", "Description 1"),
             Article("Titre 1", "Description 1")
-        )*/
+        )
         val recyclerView: RecyclerView = view.findViewById(R.id.recycler_view)
         val articles = listOf<Article>()
-        val adapterRecycler = ArticleAdapter(articles)
+        val adapterRecycler = ArticleAdapter(listArticles)
         recyclerView.layoutManager = LinearLayoutManager(view.context)
         recyclerView.adapter = adapterRecycler
     }
 
-    private fun bindSpinner(view: View){
+    /*private fun bindSpinner(view: View){
         //recupérer une liste de string depuis les ressources
         val planetes = resources.getStringArray(R.array.planetes)
 //recupérer l'instance du spinner dans la vue
@@ -124,7 +121,7 @@ class ArticlesFragment : Fragment() {
 
 
 
-    }
+    }*/
 
 
 
