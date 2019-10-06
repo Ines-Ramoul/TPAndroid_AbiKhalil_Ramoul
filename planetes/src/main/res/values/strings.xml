@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Planetes</string>
+    <string-array name="planets">
+        <item>Mercure</item>
+        <item>Venus</item>
+        <item>Terre</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturne</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+
+    <string name="Mercure">Mercure est la planète la plus proche du Soleil (58 000 000 km de distance) et aussi la plus petite du système solaire.
+Elle doit son nom au dieu romain Mercure. </string>
+    <string name="Venus">Venus</string>
+    <string name="Terre">Terre</string>
+    <string name="Mars">Mars</string>
+    <string name="Jupiter">Jupiter</string>
+    <string name="Saturne">Saturne</string>
+    <string name="Uranus">Uranus</string>
+    <string name="Neptune">Neptune</string>
+</resources>
