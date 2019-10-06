@@ -14,11 +14,15 @@
 
     <string name="Mercure">Mercure est la planète la plus proche du Soleil (58 000 000 km de distance) et aussi la plus petite du système solaire.
 Elle doit son nom au dieu romain Mercure. </string>
-    <string name="Venus">Venus</string>
-    <string name="Terre">Terre</string>
-    <string name="Mars">Mars</string>
+    <string name="Venus">Vénus est la deuxième planète la plus proche du Soleil dans notre système solaire. C\'est également la plus chaude (il y fait plus de 470°) et la plus lumineuse du système solaire. C\'est une planète tellurique.
+        On la surnomme parfois l'étoile du matin, ou encore l'étoile du berger.</string>
+    <string name="Terre">La Terre est la troisième planète la plus rapprochée du Soleil dont elle est distante de 150 millions de km.
+Elle a la forme d une sphéroïde et tourne sur elle-même en vingt-quatre heures environ. En raison de la grande part d'eau qui la compose, elle est également appelée parfois la planète bleue de loin on dirait un boule bleu.</string>
+    <string name="Mars">Mars est la quatrième planète de notre système solaire en partant du Soleil. Elle se situe juste après Mercure par rapport à sa taille. Mars tient son nom du dieu de la guerre romains, Mars.</string>
     <string name="Jupiter">Jupiter</string>
-    <string name="Saturne">Saturne</string>
+
+    <string name="Saturne" >Saturna</string>
+
     <string name="Uranus">Uranus</string>
     <string name="Neptune">Neptune</string>
 </resources>
